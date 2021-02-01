@@ -1,52 +1,113 @@
 {
-    "theme": "Naruto",
-    "nombreQuestions": 5,
+    "QUIZ": [
+        { 
+            "theme": "Naruto",
+            "nombreQuestions": 3,
 
-    "totalQuestions": [
-        {
-            "question": "Qui compose l'équipe 7 ?",
-            "proposition": [
-                "Ino, Choji, Shikamaru", 
-                "Tenten, Lee, Neji", 
-                "Hinata, Kiba, Shino"
-            ],
-            "reponse": "Naruto, Sasuke et Sakura"
+            "totalQuestions": [
+                {
+                    "question": "Qui était le 4ème Hokage ?",
+                    "proposition": [
+                        "Hashirama Senju", 
+                        "Tsunade", 
+                        "Hiruzen Sarutobi",
+                        "Minato"
+                    ],
+                    "reponse": "Minato"
+                },
+                {
+                    "question": "Où habite Naruto ?",
+                    "proposition": [
+                        "Kiri", 
+                        "Suna", 
+                        "Iwa",
+                        "Konoha"
+                    ],
+                    "reponse": "Konoha"
+                },
+                {
+                    "question": "Comment s'appelle le démon à queue de Naruto ?",
+                    "proposition": [
+                        "Sanbi",
+                        "Matatabi", 
+                        "Yonbi",
+                        "Kyubi"
+                    ],
+                    "reponse": "Kyubi"
+                }
+            ]
         },
         {
-            "question": "Qui était le 4ème Hokage ?",
-            "proposition": [
-                "Hashirama Senju",
-                "Tsunade",
-                "Hiruzen Sarutobi"
-            ],
-            "reponse": "Minato"
+            "theme": "My Hero Academia",
+            "nombreQuestions": 2,
+            "totalQuestions": [
+                {
+                    "question": "Comment s'appelle l'alter de Izuku Midoriya",
+                    "proposition": [
+                        "One for All",
+                        "All for One",
+                        "Le super Alter",
+                        "L'Alter pour les nuls"
+                    ],
+                    "reponse": "One for All"
+                },
+                {
+                    "question": "Qui est le n°1 des super héros ?",
+                    "proposition": [
+                        "Endeavor",
+                        "All Might",
+                        "Bakugo",
+                        "MidNight"
+                    ],
+                    "reponse": "All Might"
+                }
+            ]
         },
         {
-            "question": "Où habite Naruto ?",
-            "proposition": [
-                "Kiri",
-                "Suna",
-                "Iwa"
-            ],
-            "reponse": "Konoha"
-        },
-        {
-            "question": "Qui Sasuke veut-il tuer ?",
-            "proposition": [
-                "Naruto",
-                "Kakashi",
-                "Choji"
-            ],
-            "reponse": "Itachi"
-        },
-        {
-            "question": "Comment s'appelle le démon à queue de Naruto ?",
-            "proposition": [
-                "Sanbi",
-                "Matatabi",
-                "Yonbi"
-            ],
-            "reponse": "Kyubi"
+            "theme": "Dragon Ball",
+            "nombreQuestions": 4,
+            "totalQuestions": [
+                {
+                    "question": "Combien y a-t-il de dragon ball ?",
+                    "proposition": [
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "reponse": "7"
+                },
+                {
+                    "question": "Comment s'appelle le premier fils de San Goku",
+                    "proposition": [
+                        "Goten",
+                        "Gohan",
+                        "Trunks",
+                        "Krillin"
+                    ],
+                    "reponse": "Gohan"
+                },
+                {
+                    "question": "Comment s'appelle la transformation de Goku ?",
+                    "proposition": [
+                        "Super Goku",
+                        "Haki",
+                        "Super Sayan",
+                        "Terminator"
+                    ],
+                    "reponse": "Super Sayan"
+                },
+                {
+                    "question": "Comment s'appelle le petit chauve ?",
+                    "proposition": [
+                        "Yamcha",
+                        "Goten",
+                        "Vegeta",
+                        "Krillin"
+                    ],
+                    "reponse": "Krillin"
+                }
+            ]
         }
     ]
 }
